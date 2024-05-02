@@ -47,8 +47,5 @@ h1 {
 .featured {
     display: flex;
     justify-content: center;
-}
-.ingredienti-ricetta {
-    display: flex;
-    justify-content: center;
+    color: orangered;
 }
