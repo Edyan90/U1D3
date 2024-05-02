@@ -1,0 +1,9 @@
+
+h6 {
+    display: flex;
+    justify-content: center;
+    color: green;
+}
+h6 > b {color: rgb(2, 83, 2);}
+h1 {
+    justify-content: center;}
