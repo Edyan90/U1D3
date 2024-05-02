@@ -1,9 +1,54 @@
-
-h6 {
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.intro {
+    text-align: center;
+}
+header {
     display: flex;
     justify-content: center;
+}
+#linea-gialla {
+    color: yellow;    
+}
+.ingredienti-ricetta {
+    display: flex;
+    flex-direction: column;
+}
+h6 {
+    text-align: center;
     color: green;
 }
-h6 > b {color: rgb(2, 83, 2);}
+h6 > b {
+    color: darkgreen;
+}
 h1 {
-    justify-content: center;}
+    text-align: center;
+}
+#focaccia {
+    display: flex;
+    justify-content: center;
+    
+}
+.descrizione {
+    display: flex;
+    justify-content: center;
+}
+#logo {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#credits {
+   color: grey;
+}
+.featured {
+    display: flex;
+    justify-content: center;
+}
+.ingredienti-ricetta {
+    display: flex;
+    justify-content: center;
+}
