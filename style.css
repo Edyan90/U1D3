@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: "Roboto", sans-serif;
 }
 .intro {
     text-align: center;
@@ -48,4 +50,7 @@ h1 {
     display: flex;
     justify-content: center;
     color: orangered;
+}
+#focaccia2 {
+    border-radius: 5%;
 }
