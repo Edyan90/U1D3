@@ -12,7 +12,7 @@
    margin-top: auto;
 }
 #logo {
-    width:10%;
+    width:5%;
     
 }
 Header > div > p {
@@ -29,10 +29,17 @@ Header > div > p {
 #featured {
 color: orangered;
 text-align: start;
+border-left: 2px solid rgb(216, 137, 68);
+background-color: peachpuff;
 }
 #ingredienti-ricetta {
     text-align: start;
 }
 footer {
     text-align: start;
+}
+h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(0, 255, 255, 0.164);
 }
