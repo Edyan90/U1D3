@@ -1,56 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: "Roboto", sans-serif;
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700&display=swap');
+ body {
+ font-family: "Montserrat", sans-serif;
+ text-align: center;
 }
-.intro {
-    text-align: center;
-}
-header {
-    display: flex;
-    justify-content: center;
-}
-#linea-gialla {
-    color: yellow;    
-}
-.ingredienti-ricetta {
-    display: flex;
-    flex-direction: column;
-}
-h6 {
-    text-align: center;
-    color: green;
-}
-h6 > b {
-    color: darkgreen;
-}
-h1 {
-    text-align: center;
-}
-#focaccia {
-    display: flex;
-    justify-content: center;
+.contenuto {
     
+    margin: 0 auto;
 }
-.descrizione {
-    display: flex;
-    justify-content: center;
+.conteiner {
+   margin:32%;
+   margin-top: auto;
 }
 #logo {
-    display: flex;
-    justify-content: center;
-    margin: auto;
+    width:10%;
+    
 }
-#credits {
-   color: grey;
-}
-.featured {
-    display: flex;
-    justify-content: center;
-    color: orangered;
-}
-#focaccia2 {
+Header > div > p {
+    color: green;
+    background-color: peachpuff;
+    }
+#foto {
     border-radius: 5%;
+    width: 70%;
+}
+#author {
+    color: grey;
+}
+#featured {
+color: orangered;
+text-align: start;
+}
+#ingredienti-ricetta {
+    text-align: start;
+}
+footer {
+    text-align: start;
 }
